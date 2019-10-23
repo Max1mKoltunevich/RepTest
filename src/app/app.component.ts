@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'inputProject';
+  title = 'Full Name';
+  value = '';
+  update(value: string) { this.value = value; }
+  valueName = '';
+  updateName(valueName: string) { this.valueName = valueName; }
 }
